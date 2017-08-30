@@ -7,20 +7,113 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- custom CSS -->
+    <style media="screen" type="text/css">
+      font-family: "Oswald", Helvetica, Arial, sans-serif!important;
+    </style>
   </head>
 
   <body>
     <div class="container-fluid bg-light">
       <div class="container col-md-10 col-md-offset-1 bg-white">
-        <h3><center>Monthly Average Percipitation and Snowfall</center></h3>
-          <div class="row">
-            <div class="col-8">
-              <object type="text/html" data="percip.html"style="overflow:hidden; width: 700px; height: 500px"></object>
-            </div>
-            <div class="col-4">
-              Analysis
-            </div>
+        <div class="row bg-light">
+          &nbsp;
+        </div>
+        <div class="row bg-white">
+          &nbsp;
+        </div>
+        <div class="text-info">
+          <h3><center>Monthly Average Percipitation and Snowfall</center>&nbsp;</h3>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <object type="text/html" data="percip.html"style="overflow:hidden; width: 700px; height: 500px"></object>
           </div>
+          <div class="col-5">
+            <div class="container col-md-10">
+              <p class="h6 text-secondary">The monthly average precipitation data is obtained from
+      		     the <a href="https://www.ncdc.noaa.gov/cdo-web/">NOAA</a> 1981-2010 climate normal dataset. The dataset provides 30-year
+      		     averages for each month of precipitation values measured at
+      		     U.S. climate and weather stations. The state values are unweighted
+      		     averages from all the stations within the state.</p>
+              <p><center>&nbsp;
+              <h5>Top 5 Yearly Percipitation</h5></center></p>
+              </div>
+	          <div class="row">
+          		<div class="col">
+                <div class="container col-md-10">
+            		  <!-- Top percip table -->
+            		  <table class="table table-sm">
+            		    <thead class="thead-default">
+            		      <tr>
+            			    <th></th>
+            			    <th class="text-center">Most Rainfall</th>
+            		      </tr>
+            		    </thead>
+            		    <tbody>
+            		      <tr>
+            			    <th scope="row">1</th>
+            			    <td class="text-center text-info">LA</td>
+            		      </tr>
+            		      <tr>
+            			    <th scope="row">2</th>
+            			    <td class="text-center text-info">MS</td>
+            		      </tr>
+            		      <tr>
+            			    <th scope="row">3</th>
+            			    <td class="text-center text-info">AL</td>
+            		      </tr>
+            		      <tr>
+            			    <th scope="row">4</th>
+            			    <td class="text-center text-info">FL</td>
+            		      </tr>
+            		      <tr>
+            			    <th scope="row">5</th>
+            			    <td class="text-center text-info">TN</td>
+            		      </tr>
+            		    </tbody>
+            		  </table>
+                </div>
+          		</div>
+              <div class="col">
+                <div class="container col-md-10">
+                  <!-- Bottom percip table -->
+                  <table class="table table-sm">
+                    <thead class="thead-default">
+                      <tr>
+                        <th></th>
+                        <th>Least Rainfall</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td class="text-center text-info">NV</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td class="text-center text-info">WY</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td class="text-center text-info">AZ</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td class="text-center text-info">UT</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td class="text-center text-info">NM</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+	          </div>
+          </div>
+        </div>
       </div>
     </div>
 
