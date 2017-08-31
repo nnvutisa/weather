@@ -30,8 +30,8 @@
 	        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	            <div class="navbar-nav">
-			          <a class="nav-item nav-link active" href="#">Percipitation<span class="sr-only">(current)</span></a>
-			          <a class="nav-item nav-link" href="#">Snowfall</a>
+			          <a class="nav-item nav-link" href="../index.html">Percipitation</a>
+			          <a class="nav-item nav-link active" href="#">Snowfall<span class="sr-only">(current)</span></a>
 	            </div>
 	          </div>
 	        </nav>
@@ -41,92 +41,80 @@
         <div class="row bg-white">
           &nbsp;
         </div>
-        <div class="text-info">
-          <h3><center>Monthly Average Percipitation</center>&nbsp;</h3>
+        <div class="text-dark">
+          <h3><center>Monthly Average Snowfall</center>&nbsp;</h3>
         </div>
         <div class="row">
           <div class="col-7">
-            <object type="text/html" data="plots/percip.html"style="overflow:hidden; width: 700px; height: 450px"></object>
+            <object type="text/html" data="../plots/snow.html"style="overflow:hidden; width: 700px; height: 450px"></object>
           </div>
           <div class="col-5">
             <div class="container col-md-10">
-              <p class="h6 text-secondary">The monthly average precipitation data is obtained from
+              <p class="h6 text-secondary">The monthly average snowfall data is obtained from
       		     the <a href="https://www.ncdc.noaa.gov/cdo-web/">NOAA</a> 1981-2010 climate normal dataset. The dataset provides 30-year
-      		     averages for each month of precipitation values measured at
-      		     U.S. climate and weather stations. The state values are unweighted
-      		     averages from all the stations within the state.</p>
+      		     averages for each month of snowfall values measured at
+      		     U.S. climate and weather stations. The 48 mainland state values are unweighted
+      		     averages from all the stations within each state.</p>
               <p><center>&nbsp;
-              <h5>Top 5 Yearly Percipitation</h5></center></p>
+              <h5>Yearly Snowfall</h5></center></p>
               </div>
 	          <div class="row">
           		<div class="col">
-                <div class="container col-md-10">
-            		  <!-- Top percip table -->
+                <div class="container col-md-11">
+            		  <!-- Top snowfall table -->
             		  <table class="table table-sm">
             		    <thead class="thead-default">
             		      <tr>
             			    <th></th>
-            			    <th class="text-center">Most Rainfall</th>
+            			    <th class="text-center">Most Snowfall</th>
             		      </tr>
             		    </thead>
             		    <tbody>
             		      <tr>
             			    <th scope="row">1</th>
-            			    <td class="text-center text-info">LA</td>
+            			    <td class="text-center text-info">VT</td>
             		      </tr>
             		      <tr>
             			    <th scope="row">2</th>
-            			    <td class="text-center text-info">MS</td>
+            			    <td class="text-center text-info">ME</td>
             		      </tr>
             		      <tr>
             			    <th scope="row">3</th>
-            			    <td class="text-center text-info">AL</td>
+            			    <td class="text-center text-info">NH</td>
             		      </tr>
             		      <tr>
             			    <th scope="row">4</th>
-            			    <td class="text-center text-info">FL</td>
+            			    <td class="text-center text-info">NY</td>
             		      </tr>
             		      <tr>
             			    <th scope="row">5</th>
-            			    <td class="text-center text-info">TN</td>
+            			    <td class="text-center text-info">MI</td>
             		      </tr>
             		    </tbody>
             		  </table>
                 </div>
           		</div>
               <div class="col">
-                <div class="container col-md-10">
-                  <!-- Bottom percip table -->
+                <div class="container col-md-11">
+                  <!-- no snowfall states -->
                   <table class="table table-sm">
-                    <thead class="thead-default">
-                      <tr>
-                        <th></th>
-                        <th>Least Rainfall</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td class="text-center text-info">NV</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td class="text-center text-info">WY</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td class="text-center text-info">AZ</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td class="text-center text-info">UT</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td class="text-center text-info">NM</td>
-                      </tr>
-                    </tbody>
-                  </table>
+            		    <thead class="thead-default">
+            		      <tr>
+            			    <th class="text-center">States with Yearly Snowfall < 1"</th>
+            		      </tr>
+            		    </thead>
+            		    <tbody>
+            		      <tr>
+            			    <td class="text-center text-info">FL &nbsp;LA</td>
+            		      </tr>
+            		      <tr>
+            		        <td class="text-center text-info">Al &nbsp;GA</td>
+            		      </tr>
+            		      <tr>
+            		        <td class="text-center text-info">MS &nbsp;SC</td>
+            		      </tr>
+            		    </tbody>
+            		  </table>
                 </div>
               </div>
 	          </div>
