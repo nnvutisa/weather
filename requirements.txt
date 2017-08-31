@@ -1,0 +1,4 @@
+pandas==0.20.3
+numpy
+matplotlib
+bokeh==0.12.6
